@@ -3,7 +3,7 @@ import { context } from "esbuild";
 const ctx = await context({
   entryPoints: {
     index: "./index.ts",
-    worker: "./wasm-zig/src/worker.ts",
+    worker: "./node_modules/wasm-zig/dist/worker.js",
   },
   outdir: ".",
   bundle: true,
