@@ -1,0 +1,18 @@
+{
+  "name": "wasmpong",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "wasm-zig": "^0.0.1",
+    "zig-wasm": "file:wasm-zig"
+  },
+  "devDependencies": {
+    "esbuild": "^0.28.0"
+  }
+}
